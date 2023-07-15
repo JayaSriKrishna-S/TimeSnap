@@ -1,0 +1,18 @@
+# Use an appropriate base image with Python
+FROM python:3.9
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the project files to the working directory
+COPY RESTAPI /app/RESTAPI
+COPY requirements.txt /app
+
+# Install dependencies
+RUN pip install -r requirements.txt
+
+# Expose the port your Uvicorn server listens on
+EXPOSE 8000
+
+# Set the entry point command to run the Uvicorn server
+CMD ["uvicorn", "RESTAPI.rest:app", "--host", "0.0.0.0", "--port", "8000"]

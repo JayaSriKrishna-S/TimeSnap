@@ -1,0 +1,11 @@
+[
+    {
+        "templateVersion": "v1",
+        "type":"datasource",
+        "name":"trafficMonitor",
+        "fields":[{"name":"timestamp","type":"date","isEmpty":true},
+                  {"name":"ROUTER_IP","type":"text"},
+                  {"name":"txCounter","type":"DECIMAL"},
+                  {"name":"Rxcounter","type":"DECIMAL"}]
+    }
+]

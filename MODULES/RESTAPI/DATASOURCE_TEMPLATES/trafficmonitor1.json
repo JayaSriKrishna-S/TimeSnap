@@ -1,0 +1,1 @@
+[{"templateVersion": "v1", "type": "datasource", "name": "trafficmonitor1", "fields": [{"name": "timestamp", "type": "date", "isEmpty": false}, {"name": "ip", "type": "text", "isEmpty": false}, {"name": "deviceid", "type": "integer"}, {"name": "port", "type": "integer"}, {"name": "bandwidth", "type": "double"}]}]

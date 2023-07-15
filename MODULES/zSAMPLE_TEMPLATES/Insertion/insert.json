@@ -1,0 +1,13 @@
+[
+    {
+        "templateVersion": "v1",
+        "type":"insert",
+        "name":"trafficmonitor",
+        "fields":[{"name":"timestamp","value":"2002-11-19 12:12:12"},
+                  {"name":"ip","value":"121.10.10.10"},
+                  {"name":"deviceid","value":"4"},
+                  {"name":"port","value":"2"},
+                  {"name":"bandwidth","value":"1.2928"}]
+    }
+]
+
